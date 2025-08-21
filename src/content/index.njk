@@ -18,69 +18,25 @@ layout: layouts/base
     <div class="articles-container">
       {% for post in collections.posts | reverse %}
       <article class="article-card">
-        <div class="article-content">
-          <div class="author-info">
-            {% if post.data.author.avatar %}
-            <img src="{{ post.data.author.avatar }}" 
-                 alt="{{ post.data.author.name or metadata.author.name }}" 
-                 class="author-avatar">
-            {% else %}
-            <div class="author-avatar author-avatar-placeholder">
-              {{ (post.data.author.name or metadata.author.name) | first }}
-            </div>
-            {% endif %}
-            <div class="author-details">
-              <span class="author-name">{{ post.data.author.name or metadata.author.name }}</span>
-              <span class="publication-info">
-                in <span class="publication-name">{{ post.data.category or 'General' }}</span>
-              </span>
+        <div class="article-main">
+          <div class="article-text">
+            <h2 class="article-title">
+              <a href="{{ post.url }}" class="title-link">{{ post.data.title }}</a>
+            </h2>
+            <p class="article-excerpt">{{ post.data.description or "Read more about this topic..." }}</p>
+            
+            <div class="article-meta">
+              <time class="publish-date">{{ post.date | readableDate }}</time>
             </div>
           </div>
 
-          <div class="article-main">
-            <div class="article-text">
-              <h2 class="article-title">
-                <a href="{{ post.url }}" class="title-link">{{ post.data.title }}</a>
-              </h2>
-              <p class="article-excerpt">{{ post.data.description or post.data.summary or "Read more..." }}</p>
-              
-              <div class="article-meta">
-                <time class="publish-date">{{ post.date | readableDate }}</time>
-                <span class="meta-separator">·</span>
-                <span class="read-stats">{{ post.data.readCount or '282' }}</span>
-                <span class="meta-separator">·</span>
-                <span class="comment-count">{{ post.data.commentCount or '19' }}</span>
-              </div>
-            </div>
-
-            {% if post.data.featuredImage %}
-            <div class="article-image">
-              <img src="{{ post.data.featuredImage }}" 
-                   alt="{{ post.data.title }}" 
-                   class="featured-image">
-            </div>
-            {% endif %}
+          {% if post.data.featuredImage %}
+          <div class="article-image">
+            <img src="{{ post.data.featuredImage }}" 
+                 alt="{{ post.data.title }}" 
+                 class="featured-image">
           </div>
-        </div>
-
-        <div class="article-actions">
-          <button class="action-btn bookmark-btn" aria-label="Bookmark article">
-            <svg width="16" height="16" viewBox="0 0 16 16">
-              <path d="M3 2.5A1.5 1.5 0 014.5 1h7A1.5 1.5 0 0113 2.5v11.5a.5.5 0 01-.777.416L8 11.101l-4.223 2.815A.5.5 0 013 13.5V2.5z"/>
-            </svg>
-          </button>
-          
-          <button class="action-btn share-btn" aria-label="Share article">
-            <svg width="16" height="16" viewBox="0 0 16 16">
-              <path d="M13.5 1a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM11 2.5a2.5 2.5 0 11.603 1.628l-6.718 3.12a2.499 2.499 0 010 1.504l6.718 3.12a2.5 2.5 0 11-.488.876l-6.718-3.12a2.5 2.5 0 110-3.256l6.718-3.12A2.5 2.5 0 0111 2.5z"/>
-            </svg>
-          </button>
-          
-          <button class="action-btn more-btn" aria-label="More options">
-            <svg width="16" height="16" viewBox="0 0 16 16">
-              <path d="M3 9.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/>
-            </svg>
-          </button>
+          {% endif %}
         </div>
       </article>
       {% endfor %}
