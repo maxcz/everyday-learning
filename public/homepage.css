@@ -105,6 +105,17 @@ body {
   object-fit: cover;
 }
 
+.author-avatar-placeholder {
+  background-color: #1a8917;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .author-details {
   display: flex;
   align-items: center;
