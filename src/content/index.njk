@@ -20,9 +20,15 @@ layout: layouts/base
       <article class="article-card">
         <div class="article-content">
           <div class="author-info">
-            <img src="{{ post.data.author.avatar or '/img/default-avatar.jpg' }}" 
+            {% if post.data.author.avatar %}
+            <img src="{{ post.data.author.avatar }}" 
                  alt="{{ post.data.author.name or metadata.author.name }}" 
                  class="author-avatar">
+            {% else %}
+            <div class="author-avatar author-avatar-placeholder">
+              {{ (post.data.author.name or metadata.author.name) | first }}
+            </div>
+            {% endif %}
             <div class="author-details">
               <span class="author-name">{{ post.data.author.name or metadata.author.name }}</span>
               <span class="publication-info">
