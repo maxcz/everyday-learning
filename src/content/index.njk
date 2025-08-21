@@ -36,7 +36,7 @@ layout: layouts/base
               <h2 class="article-title">
                 <a href="{{ post.url }}" class="title-link">{{ post.data.title }}</a>
               </h2>
-              <p class="article-excerpt">{{ post.data.description or post.content | excerpt | safe }}</p>
+              <p class="article-excerpt">{{ post.data.description or post.data.summary or "Read more..." }}</p>
               
               <div class="article-meta">
                 <time class="publish-date">{{ post.date | readableDate }}</time>
