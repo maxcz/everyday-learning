@@ -1,41 +1,83 @@
----js
-const latestPostsCount = 3;
+---
+layout: base
 ---
 
-{% if metadata.hero %}
-    <section class="flex flex-col w-full mb-1 bg-white sm:flex-row{% if metadata.hero.image == nil %} px-4{% endif %}" data-sb-field-path={{ [siteConfigFilePath, ":hero"] | join  }}>
-        <div class="flex-1 w-full py-12 text-center {% if metadata.hero.image %}px-4 sm:px-8 sm:text-left{% else %}max-w-2xl mx-auto sm:py-16{% endif %}">
-            {% if metadata.hero.title %}
-                <h1 class="mb-4 text-3xl font-bold uppercase sm:text-4xl text-slate-800" data-sb-field-path=".title">{{ metadata.hero.title }}</h1>
-            {% endif %}
-            {% if metadata.hero.text %}
-                <div class="prose max-w-none prose-slate" data-sb-field-path=".text">
-                    {{ metadata.hero.text | markdown | safe }}
-                </div>
-            {% endif %}
-        </div>
-        {% if metadata.hero.image %}
-            <figure class="flex-1 w-full">
-                <img class="object-cover w-full h-full" src={{ metadata.hero.image.src | url }} eleventy:widths="640" eleventy:formats="webp" loading="lazy" decoding="async" alt="{{ metadata.hero.image.alt }}" data-sb-field-path=".image.src" />
-            </figure>
-        {% endif %}
-    </section>
-{% endif %}
-
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(latestPostsCount) %}
-<div class="flex flex-wrap justify-between w-full p-4 mb-1 text-xs font-medium tracking-widest text-white uppercase bg-slate-600 gap-x-6 gap-y-2">
-    <p>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif%} &darr;</p>
-    <a class="text-white underline transition decoration-1 underline-offset-4 decoration-white hover:decoration-slate-400" href="/blog">View all posts &rarr;</a>
-</div>
-
-{% set postslist = collections.posts | head(-1 * latestPostsCount) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - latestPostsCount %}
-{% if morePosts > 0 %}
-    <div class="p-4 mt-1 text-xs font-medium tracking-widest text-white uppercase bg-slate-600">
-        {{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a class="text-white underline transition decoration-1 underline-offset-4 decoration-white hover:decoration-slate-400" href="blog.njk">the archive</a>.
+<div class="homepage-container">
+  <header class="site-header">
+    <div class="header-content">
+      <h1 class="site-title">{{ metadata.title }}</h1>
+      <nav class="main-nav">
+        <a href="/" class="nav-link active">Home</a>
+        <a href="/about/" class="nav-link">About</a>
+        <a href="/archive/" class="nav-link">Archive</a>
+      </nav>
     </div>
-{% endif %}
+  </header>
+
+  <main class="main-content">
+    <div class="articles-container">
+      {% for post in collections.posts | reverse %}
+      <article class="article-card">
+        <div class="article-content">
+          <div class="author-info">
+            <img src="{{ post.data.author.avatar or '/img/default-avatar.jpg' }}" 
+                 alt="{{ post.data.author.name or metadata.author.name }}" 
+                 class="author-avatar">
+            <div class="author-details">
+              <span class="author-name">{{ post.data.author.name or metadata.author.name }}</span>
+              <span class="publication-info">
+                in <span class="publication-name">{{ post.data.category or 'General' }}</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="article-main">
+            <div class="article-text">
+              <h2 class="article-title">
+                <a href="{{ post.url }}" class="title-link">{{ post.data.title }}</a>
+              </h2>
+              <p class="article-excerpt">{{ post.data.description or post.content | excerpt | safe }}</p>
+              
+              <div class="article-meta">
+                <time class="publish-date">{{ post.date | readableDate }}</time>
+                <span class="meta-separator">·</span>
+                <span class="read-stats">{{ post.data.readCount or '282' }}</span>
+                <span class="meta-separator">·</span>
+                <span class="comment-count">{{ post.data.commentCount or '19' }}</span>
+              </div>
+            </div>
+
+            {% if post.data.featuredImage %}
+            <div class="article-image">
+              <img src="{{ post.data.featuredImage }}" 
+                   alt="{{ post.data.title }}" 
+                   class="featured-image">
+            </div>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="article-actions">
+          <button class="action-btn bookmark-btn" aria-label="Bookmark article">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <path d="M3 2.5A1.5 1.5 0 014.5 1h7A1.5 1.5 0 0113 2.5v11.5a.5.5 0 01-.777.416L8 11.101l-4.223 2.815A.5.5 0 013 13.5V2.5z"/>
+            </svg>
+          </button>
+          
+          <button class="action-btn share-btn" aria-label="Share article">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM11 2.5a2.5 2.5 0 11.603 1.628l-6.718 3.12a2.499 2.499 0 010 1.504l6.718 3.12a2.5 2.5 0 11-.488.876l-6.718-3.12a2.5 2.5 0 110-3.256l6.718-3.12A2.5 2.5 0 0111 2.5z"/>
+            </svg>
+          </button>
+          
+          <button class="action-btn more-btn" aria-label="More options">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/>
+            </svg>
+          </button>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </main>
+</div>
