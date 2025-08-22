@@ -15,6 +15,48 @@ html {
   box-sizing: border-box;
 }
 
+/* Navigation styles */
+nav {
+  padding: 16px 0 !important;
+  background-color: #ffffff !important;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo-square {
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 6px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.nav-links .nav-link {
+  color: #242424 !important;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: #6b6b6b !important;
+}
+
 /* Override any existing container styles */
 .homepage-container {
   max-width: 1200px;
