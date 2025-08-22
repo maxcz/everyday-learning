@@ -12,6 +12,15 @@ layout: layouts/base.njk
         <header class="max-w-2xl mx-auto mb-8 text-center">
             <h1 class="mb-2 text-3xl font-bold uppercase sm:text-4xl text-slate-800" data-sb-field-path="title">{{ title }}</h1>
             <time class="text-xs tracking-wide text-slate-400"  datetime="{{ page.date | htmlDateString }}" data-sb-field-path="date">{{ page.date | readableDate }}</time>
+            {% if tags or page.tags %}
+            <div class="mt-2 flex flex-wrap justify-center gap-2 text-[10px] uppercase tracking-wider">
+              {% for tag in (tags or page.tags) %}
+                {% if tag != "posts" and tag != "post" %}
+                  <span class="px-2 py-1 bg-slate-100 text-slate-600 rounded">{{ tag }}</span>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
         </header>
         <div class="prose prose-slate mx-auto lg:prose-lg prose-headings:font-semibold prose-p:leading-relaxed max-w-prose" data-sb-field-path="markdown_content">
             {{ content | safe }}
