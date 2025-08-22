@@ -1,0 +1,56 @@
+--- a/src/_includes/postslist.njk
++++ b/src/_includes/postslist.njk
+@@ -1,5 +1,5 @@
+ {%- for post in postslist | reverse %}
+-    <article class="mb-1 bg-white" data-sb-object-id={{ post.inputPath | sbObjectId }}>
++    <article class="relative mb-1 bg-white group ring-1 ring-slate-100 hover:ring-slate-200 transition" data-sb-object-id={{ post.inputPath | sbObjectId }}>
+         {% if post.data.image %}
+             <a href="{{ post.url }}">
+                 <img src="{{ post.data.image | url }}" class="w-full" eleventy:widths="960" eleventy:formats="webp" alt="{{ post.data.title }} image" data-sb-field-path="image">
+@@ -8,9 +8,18 @@
+         <div class="px-4 pt-12 pb-16 sm:pt-16 sm:pb-24">
+             <header class="max-w-2xl mx-auto mb-8 text-center">
+                 <h2 class="mb-2 text-3xl font-bold uppercase sm:text-4xl text-slate-800" data-sb-field-path="title">
+-                    <a href="{{ post.url }}">{{ post.data.title }}</a>
++                    <span class="group-hover:underline">{{ post.data.title }}</span>
++                    <a href="{{ post.url }}" class="absolute inset-0" aria-label="{{ post.data.title }}"></a>
+                 </h2>
+-                <time class="text-xs text-slate-400" datetime="{{ post.date | htmlDateString }}" data-sb-field-path="date">{{ post.date | readableDate }}</time>
++                <time class="text-xs tracking-wide text-slate-400"  datetime="{{ post.date | htmlDateString }}" data-sb-field-path="date">{{ post.date | readableDate }}</time>
++                {% if post.data.tags %}
++                <div class="mt-2 flex flex-wrap justify-center gap-2 text-[10px] uppercase tracking-wider">
++                    {%- for tag in post.data.tags -%}
++                        {%- if tag != "posts" and tag != "post" -%}
++                        <span class="px-2 py-1 bg-slate-100 text-slate-600 rounded">{{ tag }}</span>
++                        {%- endif -%}
++                    {%- endfor -%}
++                </div>
+             </header>
+             <div class="max-w-2xl mx-auto prose prose-slate" data-sb-field-path="markdown_content">
+                 {% if post.content.includes('<!--more-->') %}
+--- a/src/_includes/layouts/post.njk
++++ b/src/_includes/layouts/post.njk
+@@ -11,9 +11,9 @@
+     <div class="px-4 pt-12 pb-16 sm:pt-16 sm:pb-24">
+         <header class="max-w-2xl mx-auto mb-8 text-center">
+             <h1 class="mb-2 text-3xl font-bold uppercase sm:text-4xl text-slate-800" data-sb-field-path="title">{{ title }}</h1>
+-            <time class="text-sm text-slate-400" datetime="{{ page.date | htmlDateString }}" data-sb-field-path="date">{{ page.date | readableDate }}</time>
++            <time class="text-xs tracking-wide text-slate-400"  datetime="{{ page.date | htmlDateString }}" data-sb-field-path="date">{{ page.date | readableDate }}</time>
+         </header>
+-        <div class="max-w-2xl mx-auto prose prose-slate" data-sb-field-path="markdown_content">
++        <div class="prose prose-slate mx-auto lg:prose-lg prose-headings:font-semibold prose-p:leading-relaxed max-w-prose" data-sb-field-path="markdown_content">
+             {{ content | safe }}
+         </div>
+     </div>
+--- a/src/_includes/layouts/base.njk
++++ b/src/_includes/layouts/base.njk
+@@ -31,7 +31,8 @@
+         
+         {% if metadata.copyrightText %}
+             <footer class="px-4 pb-16 sm:pb-24">
+-                <div class="max-w-4xl mx-auto prose-sm prose text-center text-slate-600">{{ metadata.copyrightText | markdown | safe }}</div>
++                <div class="max-w-4xl mx-auto prose-sm prose text-center text-slate-600"><p class="m-0 text-slate-600">Everyday Learning distills timeless ideas into practical, everyday insights.</p>
++                    <div class="mt-2 text-slate-600">{{ metadata.copyrightText | markdown | safe }}</div></div>
+             </footer>
+         {% endif %}
+     </body>
