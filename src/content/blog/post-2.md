@@ -4,7 +4,7 @@ slug: post-2
 title: Exploring the Powerful Features of Eleventy (11ty)
 date: '2024-12-06'
 description: >-
-  This is the default description for the blog post. Customize it to highlight
+  This test is the default description for the blog post. Customize it to highlight
   your content!
 image: /images/post-2.jpg
 tags: [Stoicism, Reflection]
