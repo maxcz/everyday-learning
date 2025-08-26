@@ -1,43 +1,34 @@
 ---
 layout: layouts/base
 ---
-
 <div class="homepage-container">
   <main class="main-content">
     <div class="hero-section">
       <h1 class="hero-title">Welcome to everyday learning</h1>
       <p class="hero-subtitle">Insights from ancient wisdom, modern voices, and personal experience.</p>
     </div>
-
-    <div class="articles-container">
-    <div class="hero-section">
-      <h1 class="hero-title">Welcome to everyday learning</h1>
-      <p class="hero-subtitle">Insights from ancient wisdom, modern voices, and personal experience.</p>
-    </div>
-
     <div class="articles-container">
       {% for post in collections.posts | reverse %}
       <article class="article-card">
-        <div class="article-main">
-          <div class="article-text">
-            <h2 class="article-title">
-              <a href="{{ post.url }}" class="title-link">{{ post.data.title }}</a>
-            </h2>
-            <p class="article-excerpt">{{ post.data.description or "Read more about this topic..." }}</p>
-            
-            <div class="article-meta">
-              <time class="publish-date">{{ post.date | readableDate }}</time>
+        <a href="{{ post.url }}" class="article-link">
+          <div class="article-main">
+            <div class="article-text">
+              <h2 class="article-title">{{ post.data.title }}</h2>
+              <p class="article-excerpt">{{ post.data.description or "Read more about this topic..." }}</p>
+              
+              <div class="article-meta">
+                <time class="publish-date">{{ post.date | readableDate }}</time>
+              </div>
             </div>
+            {% if post.data.image %}
+            <div class="article-image">
+              <img src="{{ post.data.image }}" 
+                   alt="{{ post.data.title }}" 
+                   class="featured-image">
+            </div>
+            {% endif %}
           </div>
-
-          {% if post.data.image %}
-          <div class="article-image">
-            <img src="{{ post.data.image }}" 
-                 alt="{{ post.data.title }}" 
-                 class="featured-image">
-          </div>
-          {% endif %}
-        </div>
+        </a>
       </article>
       {% endfor %}
     </div>
