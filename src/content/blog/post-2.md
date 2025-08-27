@@ -5,9 +5,12 @@ title: –5°C, and the world was in an Ice Age
 date: '2025-03-06'
 description: >-
   Back in the Ice Age, the world was just 5°C colder than in 1990.
-inspiration: 
+inspiration: Podcast Maker, interview with Maud Caillaux, co-fondatrice de Green-Got.
 image: /images/post-2.jpg
 ---
+
+*Inspiration/Source: Podcast Maker, interview with Maud Caillaux*
+
 
 Back in the **Ice Age**, the world was just **5°C colder** than it was in 1990.  
 
