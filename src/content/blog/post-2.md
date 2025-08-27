@@ -9,14 +9,14 @@ inspiration: Podcast Maker, interview with Maud Caillaux, co-fondatrice de Green
 image: /images/post-2.jpg
 ---
 
-*Inspiration/Source: Podcast Maker, interview with Maud Caillaux*
+*Inspiration/Source: Podcast Maker, [interview with Maud Caillaux] (https://youtu.be/qLQhSgex-UI)*
 
 
 Back in the **Ice Age**, the world was just **5°C colder** than it was in 1990.  
 
 When I first heard that, I was **floored**.  
-In Europe, the average global temperature was only 5°C lower than in 1990… yet there were *kilometres of ice*  across the continent (up to **3,000 meters**!!) .  
-A massive ice sheet stretching from **Ireland** all the way to **eastern Russia** (6,600,000 km²~).  
+In Europe, the average global temperature was only 5°C lower than in 1990… yet there were *kilometres of ice*  across the continent (up to [3,000 meters] (https://icemap.no/en/) !!) .  
+A massive ice sheet stretching from **Ireland all the way to eastern Russia** (6,600,000 km²~).  
 
 We often hear
 
@@ -28,6 +28,9 @@ In my head, +2.5°C just meant **warmer summers**: 28–30°C instead of 24–25
 Not so bad, right?  
 
 But the reality is nothing like that.  
-If –5°C was enough to plunge us into an **Ice Age**, just imagine what **+2.5°C** could do to the world we live in now. 
+If –5°C was enough to plunge us into an **Ice Age**, imagine what **+2.5°C** could do to the world we live in now. 
+
 
 P.S. Today’s headlines might already give you an hint: record temperatures, raging megafires, melting glaciers destryoing villages.
+
+P.P.S. According to the World Meteorological Organization ([WMO] (https://wmo.int/media/news/global-climate-predictions-show-temperatures-expected-remain-or-near-record-levels-coming-5-years) , global average temperatures are expected to remain near record-high levels for the next five years (2025-2029), with an 86% chance of at least one year exceeding the 1.5°C pre-industrial warming threshold.
