@@ -1,10 +1,11 @@
 ---
 type: Post
 slug: ice-age-temperature
-title: With -5°C globally, you’re in ice age
+title: –5°C, and the world was in an Ice Age
 date: '2025-03-06'
 description: >-
   Back in the Ice Age, the world was just 5°C colder than in 1990.
+inspiration: 
 image: /images/post-2.jpg
 ---
 
@@ -15,7 +16,9 @@ In Europe, the average global temperature was only 5°C lower than in 1990… ye
 A massive ice sheet stretching from **Ireland** all the way to **eastern Russia** (6,600,000 km²~).  
 
 We often hear
-> “Oh, a 2.5°C rise could be dramatic.”
+
+> “A 2.5°C rise could be dramatic.”
+
 I’d heard it too, but I never really grasped what that meant.  
 
 In my head, +2.5°C just meant **warmer summers**: 28–30°C instead of 24–25°C.  
@@ -23,4 +26,5 @@ Not so bad, right?
 
 But the reality is nothing like that.  
 If –5°C was enough to plunge us into an **Ice Age**, just imagine what **+2.5°C** could do to the world we live in now. 
-Today’s headlines might already give you an hint: record temperatures, raging megafires, floods.
+
+P.S. Today’s headlines might already give you an hint: record temperatures, raging megafires, melting glaciers destryoing villages.
