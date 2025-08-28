@@ -6,7 +6,8 @@ date: '2025-03-06'
 description: >-
   Back in the Ice Age, the world was just 5°C colder than in 1990.
 inspiration: Podcast Maker, interview with Maud Caillaux, co-fondatrice de Green-Got.
-image: /images/ice-age/ice-age-London.jpg
+image: /images/ice-age/ice-age-London.JPG
+
 ---
 
 *Inspiration/Source: Podcast Maker, [interview with Maud Caillaux](https://youtu.be/qLQhSgex-UI)*
@@ -18,7 +19,7 @@ When I first heard that, I was **floored**.
 In Europe, the average global temperature was only 5°C lower than in 1990… yet there were *kilometres of ice*  across the continent (up to [3,000 meters](https://icemap.no/en/)!!) .  
 A massive ice sheet stretching from **Ireland all the way to eastern Russia** (6,600,000 km²~).
 
-![ice age map europe](/images/ice-age/ice-age-map-europe.jpg)](https://blogs.egu.eu/divisions/cr/2016/03/04/image-of-the-week-last-glacial-maximum-in-europe/)  
+[![ice age map europe](/images/ice-age/ice-age-map-europe.jpg)](https://blogs.egu.eu/divisions/cr/2016/03/04/image-of-the-week-last-glacial-maximum-in-europe/)  
 
 We often hear
 
