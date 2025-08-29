@@ -10,10 +10,10 @@ image: /images/post-3.jpeg
 ---
 
 
-*Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness by Anthony De Mello*</a> 
+*Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness by Anthony De Mello*</a>, lived experience 
 
 “Beautiful” is a concept. It’s perception.  
-We don’t experience life as it is. Rather, we experience it through a lens.
+We don’t experience life as it is. Rather, **we experience it through a lens**.
 
 Change how you feel, and what you see changes with it.
 
@@ -22,9 +22,9 @@ On good days, the same street looks a lot brighter and inviting.
 When you’re sad or stressed, your attention narrows. Colors mute, people annoy you faster, and possibilities seem smaller.  
 When you’re calm or joyful, the world opens. You notice details, give others the benefit of the doubt, and solutions appear.
 
-The day you feel different, your reality will be different.
+**The day you feel different, your reality will be different.**
 
-### When i feel that my lens gets cloudy, here’s a combo that often works for me:
+When i feel that my lens gets cloudy, here’s a combo that often works for me:
 
 1. label my state: “anxious,” “foggy,” “flat,” “light,” “curious.”
 2. Do some calming breath: in through the nose for **4**, out for **6** (two or three rounds if I need it).
