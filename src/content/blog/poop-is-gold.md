@@ -9,13 +9,13 @@ inspiration: Podcast HIBT, interview with Mariana Matus and Newsha Ghaeli
 image: /images/ice-age/ice-age-London.JPG
 ---
 
-*Inspiration/Source: Podcast HIBT episode #489 [interview with Mariana Matus and Newsha Ghaeli](https://wondery.com/shows/how-i-built-this/episode/10386-hibt-lab-biobot-analytics-mariana-matus-and-newsha-ghaeli/)*
+*Inspiration/Source: Podcast HIBT episode #489 <a href="https://wondery.com/shows/how-i-built-this/episode/10386-hibt-lab-biobot-analytics-mariana-matus-and-newsha-ghaeli/" target="_blank" rel="noopener">interview with Mariana Matus and Newsha Ghaeli*</a>
 
 Poop has stories to tell
 
 It might not sound intuitive, but the facts are clear: our poop is an **information goldmine**.  
 
-So much so that companies like [**Biobot Analytics**](https://biobot.io/) now specialize in studying what flows through our sewers.  
+So much so that companies like <a href="https://biobot.io/" target="_blank" rel="noopener">**Biobot Analytics**</a> now specialize in studying what flows through our sewers.  
 Why? To uncover hidden trends in cities.  
 
 These insights can range from early signs of epidemic outbreaks to patterns of drug use.  
@@ -27,5 +27,3 @@ Take Rotterdam or London, for example. By analyzing wastewater, authorities coul
 
 The big advantage?  
 Such challenges can be spotted early, and tackled before they spiral out of control.  
-
-<a href="https://google.com" target="_blank" rel="noopener">Open in new tab</a>
