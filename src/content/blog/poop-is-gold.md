@@ -1,8 +1,8 @@
 ---
 type: Post
-slug: ice-age-temperature
-title: –5°C, and the world was in an Ice Age
-date: '2025-03-06'
+slug: poop-gold
+title: The Surprising Goldmine in Our Sewers
+date: '2025-03-08'
 description: >-
   Strangely enough, our poop is an information goldmine!
 inspiration: Podcast HIBT, interview with Mariana Matus and Newsha Ghaeli
