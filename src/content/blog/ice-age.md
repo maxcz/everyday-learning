@@ -19,7 +19,7 @@ When I first heard that, I was **floored**.
 In Europe, the average global temperature was only 5°C lower than in 1990… yet there were *kilometres of ice*  across the continent (up to <a href="https://icemap.no/en/" target="_blank" rel="noopener">3,000 meters</a>]!!) .  
 A massive ice sheet stretching from **Ireland all the way to eastern Russia** (6,600,000 km²~).
 
-<a href="https://blogs.egu.eu/divisions/cr/2016/03/04/image-of-the-week-last-glacial-maximum-in-europe/" target="_blank" rel="noopener">[![ice age map europe](/images/ice-age/ice-age-map-europe.jpg)</a>  
+<a href="https://blogs.egu.eu/divisions/cr/2016/03/04/image-of-the-week-last-glacial-maximum-in-europe/" target="_blank" rel="noopener">![ice age map europe](/images/ice-age/ice-age-map-europe.jpg)</a>  
 
 We often hear
 
