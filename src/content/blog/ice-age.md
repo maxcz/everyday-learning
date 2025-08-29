@@ -7,6 +7,7 @@ description: >-
   Back in the Ice Age, the world was just 5°C colder than in 1990.
 inspiration: Podcast Maker, interview with Maud Caillaux, co-fondatrice de Green-Got.
 image: /images/ice-age/ice-age-London.JPG
+tag: environment
 
 ---
 

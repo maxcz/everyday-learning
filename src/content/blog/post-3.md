@@ -1,16 +1,17 @@
 ---
 type: Post
-slug: post-3
+slug: world-through-a-lens
 title: We see things as we are, not as they are
 date: '2025-06-04'
 description: >-
   When your mental state shifts, your world does too.
 inspiration: Awareness (Anthony de Mello), lived experience
 image: /images/post-3.jpeg
+tag: ancient wisdom
 ---
 
 
-*Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness by Anthony De Mello*</a>, lived experience 
+*Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness</a> by Anthony De Mello, lived experience* 
 
 “Beautiful” is a concept. It’s perception.  
 We don’t experience life as it is. Rather, **we experience it through a lens**.

@@ -7,6 +7,7 @@ description: >-
   Strangely enough, our poop is an information goldmine!
 inspiration: Podcast HIBT, interview with Mariana Matus and Newsha Ghaeli
 image: /images/ice-age/ice-age-London.JPG
+tag: health
 ---
 
 *Inspiration/Source: Podcast HIBT episode #489 <a href="https://wondery.com/shows/how-i-built-this/episode/10386-hibt-lab-biobot-analytics-mariana-matus-and-newsha-ghaeli/" target="_blank" rel="noopener">interview with Mariana Matus and Newsha Ghaeli*</a>
