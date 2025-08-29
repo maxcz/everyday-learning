@@ -27,3 +27,5 @@ Take Rotterdam or London, for example. By analyzing wastewater, authorities coul
 
 The big advantage?  
 Such challenges can be spotted early, and tackled before they spiral out of control.  
+
+<a href="https://google.com" target="_blank" rel="noopener">Open in new tab</a>
