@@ -1,7 +1,7 @@
 ---
 type: Post
 slug: ice-age-temperature
-title: –5°C, and the world was in an Ice Age
+title: –5°C, when the world was in an Ice Age
 date: '2025-03-06'
 description: >-
   Back in the Ice Age, the world was just 5°C colder than in 1990.
