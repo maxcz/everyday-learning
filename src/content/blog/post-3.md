@@ -25,7 +25,7 @@ When you’re calm or joyful, the world opens. You notice details, give others t
 
 **The day you feel different, your reality will be different.**
 
-When i feel that my lens gets cloudy, here’s a combo that often works for me:
+When I feel that my lens gets cloudy, here’s a combo that often works for me:
 
 1. label my state: “anxious,” “foggy,” “flat,” “light,” “curious.”
 2. Do some calming breath: in through the nose for **4**, out for **6** (two or three rounds if I need it).
