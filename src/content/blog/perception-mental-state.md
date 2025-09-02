@@ -6,7 +6,7 @@ date: '2025-06-04'
 description: >-
   When your mental state shifts, your world does too.
 inspiration: Awareness (Anthony de Mello), lived experience
-image: /images/post-3.jpeg
+image: /images/awareness/world-htrough-a-lens.jpg
 tag: ancient wisdom
 ---
 
@@ -14,6 +14,7 @@ tag: ancient wisdom
 *Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness</a> by Anthony De Mello, lived experience* 
 
 “Beautiful” is a concept. It’s perception.  
+
 We don’t experience life as it is. Rather, **we experience it through a lens**.
 
 Change how you feel, and what you see changes with it.

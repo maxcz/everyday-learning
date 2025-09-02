@@ -6,7 +6,7 @@ date: '2025-03-08'
 description: >-
   Strangely enough, our poop is an information goldmine!
 inspiration: Podcast HIBT, interview with Mariana Matus and Newsha Ghaeli
-image: \images\poop - sewer\poop-sewers- final.jpg
+image: /images/poop - sewer/poop-is-a-goldmine.jpg
 tag: health
 ---
 
@@ -22,7 +22,8 @@ Why? To uncover hidden trends in cities.
 These insights can range from early signs of epidemic outbreaks to patterns of drug use.  
 
 And here’s the beauty of it: the analyses are **anonymous**.  
-These companies don’t zoom in on individuals. Rather, they paint a detailed picture at the scale of a borough, city, or even a region.  
+These companies don’t zoom in on individuals. 
+Rather, they paint a detailed picture at the scale of a borough, city, or even a region.  
 
 Take Rotterdam or London, for example. By analyzing wastewater, authorities could detect that a particular neighborhood struggles with high levels of drug addiction—long before the problem becomes visible on the streets.  
 
