@@ -1,10 +1,10 @@
 ---
 type: Post
 slug: root-cause-medical
-title: Treat the pain AND fix the cause
+title: Contemplate, be like the sky
 date: '2024-12-03'
 description: >-
-  A personal detour through recurring injury, and what it taught me about root causes and clear-headed care.
+  A personal takeaway from Awareness by Anthony de Mello on noticing emotions without being dragged by them.
 image: /images/book-awareness\be like the sky.jpg
 ---
 
@@ -12,7 +12,8 @@ image: /images/book-awareness\be like the sky.jpg
 *Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness</a> by Anthony De Mello, lived experience* 
 
 
-**Note:** The thoughts below are my own understanding after listening to *Awareness* by Anthony de Mello. They are not “the truth” or a prescription; simply what clicked for me and what I use in my everyday life.
+**Note:** The thoughts below are my own understanding after listening to *Awareness* by Anthony de Mello. 
+They are not “the truth” or a prescription; simply what clicked for me and what I use in my everyday life.
 
 When you’re not aware of your emotions, you’re not in control.  
 Your emotions tend to run the show.
