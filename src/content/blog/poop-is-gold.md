@@ -6,7 +6,7 @@ date: '2025-03-08'
 description: >-
   Strangely enough, our poop is an information goldmine!
 inspiration: Podcast HIBT, interview with Mariana Matus and Newsha Ghaeli
-image: /images/poop - sewer/poop-is-a-goldmine.jpg
+image: /images/poop - sewer\poop-goldmine.jpg
 tag: health
 ---
 
