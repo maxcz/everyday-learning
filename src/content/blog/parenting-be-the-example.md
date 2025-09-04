@@ -7,7 +7,7 @@ description: >-
   This is the default description for the blog post. Customize it to highlight
   your content!
 inspiration: Daring Greatly (Brené brown), lived experience
-image: /images/post-4.jpg
+image: /images/book-daring greatly/parent_child_anger.jpg 
 tag: parenting 
 ---
 

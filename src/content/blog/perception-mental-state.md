@@ -6,7 +6,7 @@ date: '2025-06-04'
 description: >-
   When your mental state shifts, your world does too.
 inspiration: Awareness (Anthony de Mello), lived experience
-image: /images/awareness/world-htrough-a-lens.jpg
+image: /images/book-awareness/world-htrough-a-lens.jpg
 tag: ancient wisdom
 ---
 
