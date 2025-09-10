@@ -5,7 +5,7 @@ title: Contemplate, be like the sky
 date: '2024-12-03'
 description: >-
   A personal takeaway from Awareness by Anthony de Mello on noticing emotions without being dragged by them.
-image: /images/book-awareness\be-like-the-sky.jpg
+image: /images/book-awareness/be-like-the-sky.jpg
 ---
 
 *Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness</a> by Anthony De Mello, lived experience* 
