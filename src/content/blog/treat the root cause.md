@@ -9,7 +9,7 @@ image: /images/health 3.0/treat the cause - mushroom.JPG
 ---
 
 
-*Inspiration/Source: Personal experience*</a>
+*Inspiration/Source: Personal experience*
 
 
 Most Western-trained clinicians are great at identifying and treating what is right in front of them.  
@@ -26,7 +26,8 @@ But for more complex ones, two big points are missing:
 - **Feedback loops.** If treatments “work,” many patients do not come back to debrief. That means clinicians often do not know whether the treatment helped, merely quieted symptoms for a while, or did not work at all.
 
 Take a hip injury: is it a hip problem, or is the hip **compensating** for an imbalance somewhere else?  
-Is this clinician the best person to assess it, or should they loop in someone who sees a different part of the picture?
+
+Which raises a useful question: is this clinician the best person to assess it, or should they bring in someone who sees a different part of the picture?
 
 When care is not holistic, the pain might improve, but if the reason it started lingers, the symptoms will return sooner or later.
 
