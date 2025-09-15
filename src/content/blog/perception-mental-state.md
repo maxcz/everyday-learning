@@ -28,10 +28,9 @@ When you’re calm or joyful, the world opens. You notice details, give others t
 
 When I feel that my lens gets cloudy, here’s a combo that often works for me:
 
-1. label my state: “anxious,” “foggy,” “flat,” “light,” “curious.”
-2. Do some calming breath: in through the nose for **4**, out for **6** (two or three rounds if I need it).
-3. Change your environment: step outside for a minute, change room  
-   - When the fog is really tenacious, I might go for a run to dissipate tensions.
+- label my state: “anxious,” “foggy,” “flat,” “light,” “curious.”
+- Do some calming breath: in through the nose for **4**, out for **6** (two or three rounds if I need it).
+- Change your environment: step outside for a minute, change room. When the fog is really tenacious, I might go for a run to dissipate tensions.
 
 Then I look again.  
 Most times, the same scene feels different.
