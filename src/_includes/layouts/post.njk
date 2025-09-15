@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <article class="bg-white" data-sb-object-id={{ page.inputPath | sbObjectId }}>
     {% if image %}
         <figure>
-            <img src="{{ image | url }}" class="w-full" eleventy:widths="960" eleventy:formats="webp" alt="{{ title }} image" data-sb-field-path="image" />
+            <img src="{{ image | url }}" class="w-full" eleventy:widths="450" eleventy:formats="webp" alt="{{ title }} image" data-sb-field-path="image" />
         </figure>
     {% endif %}
     <div class="px-4 pt-12 pb-16 sm:pt-16 sm:pb-24">
