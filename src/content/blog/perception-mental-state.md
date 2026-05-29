@@ -11,7 +11,7 @@ tag: ancient wisdom
 ---
 
 
-*Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness</a> by Anthony De Mello, lived experience* 
+*Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Awareness</a> by Anthony de Mello, lived experience* 
 
 “Beautiful” is a concept. It’s perception.  
 
@@ -28,9 +28,9 @@ When you’re calm or joyful, the world opens. You notice details, give others t
 
 When I feel that my lens gets cloudy, here’s a combo that often works for me:
 
-- label my state: “anxious,” “foggy,” “flat,” “light,” “curious.”
+- Label my state: “anxious,” “foggy,” “flat,” “light,” “curious.”
 - Do some calming breath: in through the nose for **4**, out for **6** (two or three rounds if I need it).
-- Change your environment: step outside for a minute, change room. When the fog is really tenacious, I might go for a run to dissipate tensions.
+- Change my environment: step outside for a minute, change room. When the fog is really tenacious, I might go for a run to dissipate tensions.
 
 Then I look again.  
 Most times, the same scene feels different.
