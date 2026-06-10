@@ -1778,3 +1778,10 @@ video {
     line-height: 2.5rem;
   }
 }
+
+.prose img {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

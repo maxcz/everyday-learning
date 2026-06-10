@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .prose img {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
