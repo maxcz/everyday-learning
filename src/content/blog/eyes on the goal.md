@@ -13,7 +13,7 @@ tag: human psychology
  
 *Inspiration/Source: Book <a href="https://www.goodreads.com/book/show/48528524-awareness" target="_blank" rel="noopener">Giant Steps</a> by Tony Robbins, lived experience* 
 
-I have an hour before I meet friends. I open the address, I start working out the route, and I spot the name of a bar on the way. The name reminds me of a place I went to in India.
+It's Friday, I have an hour before I meet friends. I open the address, I start working out the route, and I spot the name of a bar on the way. The name reminds me of a place I went to in India.
 
 So I look it up. The bar leads to the town, the town leads to a memory, and the memory leads to me in satellite mode on Google Maps, dragging across a remote valley to find the exact spot I stayed in.
 
@@ -25,7 +25,7 @@ Curiosity points me everywhere. So I go everywhere. And "everywhere" is rarely w
 
 Here's the thing I've come to believe, though. There are two modes, and both are fine. Sometimes I know exactly where I'm going. Sometimes I don't, and that's ok too. You just have to be conscious of which mode you're in.
 
-Tony Robbins mentions this in Giant Steps: "if you want to achieve something, you must direct your mental and physical momentum toward your target. Where focus goes, energy flows." Look at the goal and you drift toward the goal. Look at everything else and you drift toward everything else. Your attention is the steering wheel. There's so much truth in these words, at least for me.
+Tony Robbins mentions this in Giant Steps: "if you want to achieve something, you must direct your mental and physical momentum toward your target. Where focus goes, energy flows." Look at the goal and you drift toward the goal. Look at everything else and you drift toward everything else. Your attention is the steering wheel.
 
 I know the other mode well, because I've felt it, and it's night and day.
 
@@ -33,9 +33,9 @@ When I run, something narrows. My mind goes quiet and clean, and if I'm carrying
 
 The screen does the opposite. It hands me a thousand exits, every one dressed up as discovery, and I take them, and I call it curiosity. Sometimes it really is. The trouble is I can't tell the difference in the moment, because I never stopped to ask whether I was aiming at something or just roaming.
 
-That's the whole thing, really. It's not that wandering is bad and focus is good. It's that you have to be conscious of which one you're doing. Explore mode is a real, useful mode. You go forward without the full map, you learn things along the way, and at some point the road shows you where it was heading. That's how most of what I know got into my head. There's no shame in not having the goal from the start. The problem, if any, is in thinking you have a clear goal while you don't. Then the zigzags frustrate you. You think you're heading somewhere, you're not, and your self-esteem takes the hit because you keep "failing" to reach a place you never actually aimed at.
+It's not that wandering is bad and focus is good. It's that you have to be conscious of which one you're doing. Explore mode is a real, useful mode. You go forward without the full map, you learn things along the way, and at some point the road shows you where it was heading. That's how most of what I know got into my head. There's no shame in not having the goal from the start. The problem, if any, is in thinking you have a clear goal while you don't. Then the zigzags frustrate you. You think you're heading somewhere, you're not, and your self-esteem takes the hit because you keep "failing" to reach a place you never actually aimed at.
 
-Not knowing your mode shows up at work too, just with a bigger bill. I've seen several teams where the product never ships because every nearby idea is more interesting than the one they were asked to build. They thought they were in execute mode. They were actually in explore mode and nobody said so out loud.
+Not knowing your mode shows up at work too,  and it costs more. I've seen several teams where the product never ships because every nearby idea looks better than the one they were asked to build. They thought they were in execute mode. They were actually in explore mode and nobody said so out loud.
 
 On a personal level I've done career moves that left me empty, not because I explored, but because I never admitted I was exploring. I acted like I had a destination and judged every road against a goal I didn't really have.
 
