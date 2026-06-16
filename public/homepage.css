@@ -47,7 +47,7 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .nav-links .nav-link {
