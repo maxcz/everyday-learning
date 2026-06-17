@@ -1,7 +1,7 @@
 ---
 type: Post
 slug: the-doors-in-the-mind
-title: The Doors in the Mind
+title: Why your believes define your limits
 date: '2026-06-16'
 description: >-
   The four-minute wall was never in the muscles.
