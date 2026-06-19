@@ -12,13 +12,16 @@ tag: human psychology
 *Inspiration/Source: Book <a href="https://www.tonyrobbins.com/products/giant-steps" target="_blank" rel="noopener">Giant Steps</a> by Tony Robbins*
 
 3 minutes, 59.4 seconds!!! 
-A time that was said to be impossible for humans. Doctors had warned the heart might give out, the body would break. 
-We're on May 6, 1954. Roger Bannister just broke the mile record, finishing under the mythical four-minute threshold.
+
+A time that was said to be impossible for humans.
+
+We're on May 6, 1954.\
+Roger Bannister just broke the mile record, finishing under the mythical four-minute threshold. \
+Initially, doctors had warned that the heart might give out, that the body would break.
 
 Here's the funny part: within a year, dozens of other runners broke four minutes too.
 
-The human body can't change that much in twelve months. So how did that happen? 
-The beliefs did. 
+The human body can't change that much in twelve months. So how did that happen? The beliefs changed. \
 The four-minute wall was never in the muscles. It was in the mind, and once one man walked through it, everyone could see the door.
 
 Beliefs are what let us reach a goal, or stop us cold. If you don't think you can do it, you never will. As Tony Robbins says, your mind is incredibly powerful. So use it, train it. It's something you can work on. Your beliefs can become your brakes or your launching pad.
@@ -51,7 +54,7 @@ Then challenge it. Ask yourself: is this true? Search for instances where this b
 
 Then replace it with a better one, and rehearse it until it sticks. This is what Bannister did. He didn't just hope. For weeks before the race, he conditioned his brain to believe he could go below four minutes. He believed it before his body proved it.
 
-Psychologists call this self-efficacy: your belief that you can actually pull off the thing in front of you. It tends to be self-fulfilling. People who believe they can try harder, last longer, and bounce back from stumbles, which makes them more likely to succeed.
+Psychologists call this **self-efficacy**: your belief that you can actually pull off the thing in front of you. It tends to be self-fulfilling. People who believe they can try harder, last longer, and bounce back from stumbles, which makes them more likely to succeed.
 
 So when you bump into walls, know that some of them are real but most of them are just beliefs someone handed you, a teacher, a coach, a mean comment you've carried for years and never thought to question.
 
